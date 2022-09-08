@@ -20,3 +20,22 @@ input{
     list-style: none;
     margin-top: 30px;
 }
+
+.update{
+    color: blue;
+    margin: 0 10px;
+}
+
+.delete{
+    color: #ff0000;
+    margin: 0 10px;
+}
+
+.remove{
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 10px, 30px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
