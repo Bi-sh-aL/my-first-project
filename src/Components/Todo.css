@@ -5,6 +5,10 @@
     padding-bottom: 20px;
 }
 
+.todo-logo {
+   color:rgb(133, 174, 27);
+}
+
 .todo-form {
     padding-top: 50px;
 }
@@ -23,7 +27,7 @@
 .button {
     padding: 10px 30px;
     color: #fff;
-    background-color: #143acd;
+    background-color: #17cd14;
     outline: none;
     border: 2px solid #143acd;
     cursor: pointer;

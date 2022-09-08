@@ -53,7 +53,7 @@ const Todo = () => {
 
   return (
     <div className="todo">
-      <div className="todo-logo">Todo App</div>
+      <div className="todo-logo"><h1>Todo App</h1></div>
 
       <div className="todo-form">
         <form>
@@ -71,8 +71,10 @@ const Todo = () => {
             name="Enter"
             value="Add Todo"
             disabled={!input}
-            onClick={handleSubmit}
+            onCLick={handleSubmit}
+            onChange={handleSubmit}
           />
+
         </form>
       </div>
       
