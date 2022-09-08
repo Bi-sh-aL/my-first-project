@@ -71,10 +71,8 @@ const Todo = () => {
             name="Enter"
             value="Add Todo"
             disabled={!input}
-            onCLick={handleSubmit}
-            onChange={handleSubmit}
-          />
-
+            onClick={handleSubmit}
+            />
         </form>
       </div>
       
