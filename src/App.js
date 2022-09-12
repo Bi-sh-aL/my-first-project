@@ -1,10 +1,10 @@
 import  './App.css';
-import Todo from './Components/Todo';
+import TodoFirebase from './Components/TodoFirebase';
 
 function App() {
   return (
     <div className="App">
-      <Todo/>
+      <TodoFirebase/>
     </div>
   );
 }
